@@ -13,8 +13,8 @@ public class Hexagon extends GameObject {
 	float radius;
 	Color color;
 	
-	public Hexagon (float x, float y, float radius) {
-		super(x, y, radius);
+	public Hexagon (float x, float y, float radius, Fraction fraction) {
+		super(x, y, radius, fraction);
 		
 		this.x= x;
 		this.y =y;
